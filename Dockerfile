@@ -1,4 +1,4 @@
-FROM quay.io/evryfs/base-ubuntu:focal-20220105
+FROM quay.io/evryfs/base-ubuntu:focal-20220113
 LABEL maintainer "fsdevops@evry.com"
 RUN apt-get update && \
 	apt-get --no-install-recommends -y install somepackage && \
